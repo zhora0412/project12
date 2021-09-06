@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__logo">
+          <img src="images/images-logo.png" alt="logo" />
+        </div>
+        <div class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link header__menu-link--active"
+                >Home</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Pages</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Shortcodes</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="slider__section">
+      <div class="slider">
+        <div class="item">
+          <div class="slider__box">
+            <div class="slider__title">Welcome to Creative BIZTO</div>
+            <div class="slider__text">Creative Design & Online Marketing</div>
+            <div class="slider__btn">
+              <button class="slider__parchase">PARCHASE NOW</button>
+            </div>
+          </div>
+          <img class="item__img" src="images/slide1.jpg" alt="img" />
+        </div>
+        <div class="item">
+          <div class="slider__box">
+            <div class="slider__title">Welcome to Creative BIZTO</div>
+            <div class="slider__text">Creative Design & Online Marketing</div>
+            <div class="slider__btn">
+              <button class="slider__parchase">PARCHASE NOW</button>
+            </div>
+          </div>
+          <img class="item__img" src="images/slide2.jpg" alt="img" />
+        </div>
+        <div class="item">
+          <div class="slider__box">
+            <div class="slider__title">Welcome to Creative BIZTO</div>
+            <div class="slider__text">Creative Design & Online Marketing</div>
+            <div class="slider__btn">
+              <button class="slider__parchase">PARCHASE NOW</button>
+            </div>
+          </div>
+          <img class="item__img" src="images/slide3.jpg" alt="img" />
+        </div>
+        <button onclick="plusSlide()" class="next"></button>
+        <button onclick="minusSlide()" class="prev"></button>
+        <div class="slider-dots">
+          <div class="slider-dots__item" onclick="currentSlide(1)"></div>
+          <div class="slider-dots__item" onclick="currentSlide(2)"></div>
+          <div class="slider-dots__item" onclick="currentSlide(3)"></div>
+        </div>
+      </div>
+    </section>
+    <section class="sort-products">
+      <div class="container">
+        <div class="sort-menu__title">Our Latest Portfolio</div>
+        <div class="sort-menu__discribe">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout..
+        </div>
+        <div class="sort-menu__header">
+          <ul class="sort-menu__menu">
+            <li class="sort-menu__item sort-menu__item--active" data-id="all">
+              All
+            </li>
+            <li class="sort-menu__item" data-id="branding">Branding</li>
+            <li class="sort-menu__item" data-id="design">Web Design</li>
+            <li class="sort-menu__item" data-id="mobile">Mobile app</li>
+            <li class="sort-menu__item" data-id="photography">Photography</li>
+          </ul>
+        </div>
+        <div class="blocks">
+          <div
+            class="blocks__item branding "
+            style="background-image: url(images/a1.jpg)"
+          ><a href="#" class="window">
+            Show more
+          </a></div>
+          <div
+            class="blocks__item mobile"
+            style="background-image: url(images/a2.jpg)"
+          ><a href="#" class="window">
+            Show more
+          </a></div>
+
+          <div
+            class="blocks__item design"
+            style="background-image: url(images/a3.jpg)"><a href="#" class="window">
+            Show more
+          </a>
+          </div>
+
+          <div
+            class="blocks__item photography mobile"
+            style="background-image: url(images/a4.jpg)"
+          ><a href="#" class="window">
+            Show more
+          </a></div>
+          <div
+            class="blocks__item design"
+            style="background-image: url(images/a5.jpg)"
+          ><a href="#" class="window">
+            Show more
+          </a></div>
+          <div
+            class="blocks__item mobile photography"
+            style="background-image: url(images/a6.jpg)"
+          ><a href="#" class="window">
+            Show more
+          </a></div>
+        </div>
+        <div class="sort-products__btn">
+          <a href="#" class="btn">CHECK OUT MORE PORTFOLIO</a>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="container">
+      <div class="team__title">Our Team Members</div>
+      <div class="team__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..
+
+      </div>
+      <div class="team__box">
+        <div class="team__item">
+          <div class="team__img" style="background-image: url(images/images-team-img-2.jpg);">
+            <div class="team__links">
+              <a href="#" class="link__item fb"></a>
+              <a href="#" class="link__item twitter"></a>
+              <a href="#" class="link__item instagram"></a>
+            </div>
+          </div>
+          <div class="team__info">
+            <div class="team__name">M_ADNAN ARIF
+            </div>
+            <div class="team__possition">CEO Founder
+
+            </div>
+          </div>
+
+        </div>
+        <div class="team__item">
+          <div class="team__img" style="background-image: url(images/images-team-img-1.jpg);">
+            <div class="team__links">
+              <a href="#" class="link__item fb"></a>
+              <a href="#" class="link__item twitter"></a>
+              <a href="#" class="link__item instagram"></a>
+            </div>
+          </div>
+          <div class="team__info">
+            <div class="team__name">ADNAN ARIF
+
+            </div>
+            <div class="team__possition">CEO Founder
+
+            </div>
+          </div>
+          
+        </div>
+        <div class="team__item">
+          <div class="team__img" style="background-image: url(images/images-team-img-3.jpg);">
+            <div class="team__links">
+              <a href="#" class="link__item fb"></a>
+              <a href="#" class="link__item twitter"></a>
+              <a href="#" class="link__item instagram"></a>
+            </div>
+          </div>
+          <div class="team__info">
+            <div class="team__name">ALI JAUN
+
+            </div>
+            <div class="team__possition">CEO Founder
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="mail">
+      <div class="container">
+         <form class="mail__form" action="sender.php" method="post">
+         <input class="mail__info" type="email" name="email" placeholder="Email" required>
+         <input type="text" class="phone" name="phone" placeholder="Tell">
+         <textarea class="mail__text" name="text" placeholder="Enter text"></textarea>
+         <button class="mail__sand" type="button">SAND</button>
+         <div class="status"></div>
+      </form>
+     </div>
+    </section>
+    <footer class="footer">
+      
+      <svg  xmlns:xlink="http://www.w3.org/1999/xlink"      xmlns="http://www.w3.org/2000/svg" 
+           height="300px" width="100%"  
+          viewBox="155 170 250 250" >
+    	
+      <rect x="250" y="250" width="100" height="100" class="d" fill="#ffff00">
+	    <animateTransform attributeName="transform" type="rotate" begin="0s" dur="2s" values="0 300 300;360 300 300" repeatCount="indefinite" />
+		  <animate attributeName="fill" begin="0s" dur="1s" values="#ffff00;#ff0000;#ffff00" repeatCount="indefinite" />
+	    </rect>	
+      </svg>
+      <a href="#" class="top">To top</a>
+      <div class="footer__text">© 2020 Web Design market place. Trademarks and brands are the property.</div>
+    </footer>
+    <script src="js/libs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
